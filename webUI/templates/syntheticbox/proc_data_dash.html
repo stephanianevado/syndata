@@ -1,0 +1,100 @@
+{% load static %}
+<head>
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">    
+    <!-- MetisMenu CSS -->
+    <link href="{% static 'metisMenu/metisMenu.min.css' %}" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="{% static 'sbadmin/css/sb-admin-2-original.css' %}" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="{% static 'others/css/fileinput.min.css' %}" rel="stylesheet">
+    <link href="{% static 'others/css/landing-page.css' %}" rel="stylesheet">        
+    <!-- Custom Fonts -->
+    <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">   
+    <!-- jQuery -->
+    <script src="{% static 'jquery/jquery-3.2.1.min.js' %}"></script>
+    <!-- Bootstrap-select -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+          type="text/css">
+    <link href="{% static 'datatables/media/css/jquery.dataTables.css' %}" rel="stylesheet">
+    <link href="{% static 'others/css/landing-page.css' %}" rel="stylesheet">
+    <script src="{% static 'datatables/media/js/jquery.dataTables.js' %}"></script>
+    <!-- Highcharts JavaScript -->
+    <script src="{% static 'highcharts/code/highcharts.js' %}"></script>
+    <script src="{% static 'highcharts/code/modules/exporting.js' %}"></script>
+</head>
+
+<body>
+<!-- HEADER/LOGO -->
+<div class="intro-header">
+    <div class="navbar-brand">
+        <img style="margin-top: 0px;margin-left:10px;width: 100%" class="img-responsive" src="{% static 'images/rsz_datasynthesizer_logo.png' %}">
+    </div>
+</div>
+<!-- PREVIEW PANEL -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h4 class="panel-title"> Preview (showing first 100 rows)​ </h4>
+            </div>
+            <div class="panel-body">
+                <table id="proc_data_table" class="display nowrap" cellspacing="0" width="100%"> </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.row -->
+<div class="row">
+    <div class="col-lg-12">
+    </div> <!-- /#col-12 -->
+</div> <!-- /#row -->
+<!-- FOOTER -->
+<div class="footer_div">
+    <div class="container_footer">
+        <footer class="main_footer">
+            <p class="text-muted">
+                &copy; 2020 <a href="https://syndata.co"> Syndata</a>
+                | <a href="https://syndata.co/privacy">Privacy</a>
+                | <a href="https://syndata.co">Contact Us</a>
+            </p>
+        </footer>
+    </div>
+</div>
+<style>
+    .main_footer {
+        background: inherit;
+    }
+    .container_footer {
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<script type="text/javascript" language="javascript">
+
+    $(document).ready(function () {
+        $('#proc_data_table').dataTable({
+            "ajax": {
+                "url": "{% url 'syntheticbox:proc_json_processing' %}",
+                "dataSrc": ""
+            },
+            columns: {{passed_json_columns | safe}},
+            columnDefs: {{passed_json_columns_header | safe}},
+            order: [[ 0, "desc" ]],
+            scrollX: true,
+        });
+    });
+
+</script>
+
+<!-- JavaScript -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{% static 'others/js/bootstrap-filestyle.min.js' %}"></script>
+<script src="{% static 'others/js/fileinput.min.js' %}"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/js/bootstrap-select.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+</body>
+</html>

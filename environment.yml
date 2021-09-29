@@ -1,0 +1,13 @@
+name: syndata
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - django
+  - python-dateutil
+  - category_encoders
+  - syndata-dgt

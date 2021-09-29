@@ -1,0 +1,130 @@
+{% load static %}
+
+<html class="no-js">
+  <head>
+  	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tools</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+	<link rel="stylesheet" href="{% static 'jekyll/css/owl.carousel.css' %}" />
+	<link rel="stylesheet" href="{% static 'jekyll/css/bootstrap.min.css' %}" />
+	<link rel="stylesheet" href="{% static 'jekyll/css/font-awesome.min.css' %}" />
+	<link rel="stylesheet" href="{% static 'jekyll/css/themes.css' %}" />
+	<link rel="stylesheet" href="{% static 'jekyll/css/style.css' %}" />
+	<link rel="stylesheet" href="{% static 'jekyll/css/ionicons.min.css' %}" />
+	<link rel="stylesheet" href="{% static 'jekyll/css/animate.css' %}" />
+	<link rel="stylesheet" href="{% static 'jekyll/css/responsive.css' %}" />
+	<link rel="stylesheet" href="{% static 'jekyll/css/syntax.css' %}" />
+
+	<!-- Js -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!--<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>-->
+
+	<script src="{% static 'jekyll/js/vendor/jquery-1.10.2.min.js' %}"></script>
+    <script src="{% static 'jekyll/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'jekyll/js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'jekyll/js/plugins.js' %}"></script>
+	<script src="{% static 'jekyll/js/min/waypoints.min.js' %}"></script>
+	<script src="{% static 'jekyll/js/jquery.counterup.js' %}"></script>
+
+
+	<script src="{% static 'jekyll/js/main.js' %}"></script>
+  </head>
+  <body>
+
+  	<!-- Header Start -->
+	<header>
+	<div class="container">
+	  <div class="row">
+	    <div class="col-md-12">
+	      <!-- header Nav Start -->
+	      <nav class="navbar navbar-default">
+	        <div class="container-fluid">
+	          <!-- Brand and toggle get grouped for better mobile display -->
+	          <div class="navbar-header">
+	            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	            <span class="sr-only">Toggle navigation</span>
+	            <!-- <span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+	            <span class="icon-bar"></span> -->
+	            </button>
+				<a class="navbar-brand" href="https://syndata.co">
+					<img style="margin-top: 0px;margin-left: 0px;width: 100%;" src="{% static 'images/header_logo.png' %}" alt="Logo">
+	            </a>
+	          </div>
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	              <ul class="nav navbar-nav navbar-right">
+	                <li><a href="https://syndata.co">Home</a></li>
+	                <li><a href="https://syndata.co/privacy">Privacy</a></li>
+	                <li><a href="{% url 'syntheticbox:index' %}">Synthetic Engine</a></li>
+	                <li><a href="https://syndata.co">Contact</a></li>
+	              </ul>
+	            </div><!-- /.navbar-collapse -->
+	          </div><!-- /.container-fluid -->
+	          <div><p></p></div>
+	        </nav>
+	      </div>
+	    </div>
+	  </div>
+	</header><!-- header close -->
+
+	<!-- Slider Start -->
+	<!-- <section id="global-header">
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-md-12">
+	        <div class="block">
+	          <h1>Tools</h1>
+	          <p>all our code is open-source</p>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</section>-->
+	<section id="portfolio-work">
+	    <div class="container">
+	        <div class="row">
+	          <div class="col-lg-16">
+	            <div class="block">
+	              <div class="portfolio-contant">
+	                <ul id="portfolio-contant-active-tools">
+	                    <li>
+						  <!--<a href="{% url 'syntheticbox:index' %}"></a>
+	                        <img style ="width: 120%;height: 25%" src="{% static 'images/DataSynthesizer_Logo_Small.png' %}" alt="TheSyntheticBox">
+	                        <div class="overly">
+	                            <h2>The Synthetic Box</h2>
+	                            <p>Generate synthetic datasets</p>
+	                        </div>
+	                      </a>-->
+	                    </li>
+	                </ul>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	    </div>
+	</section>
+
+    <!-- footer Start -->
+	<footer>
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-md-12">
+	        <div class="footer-manu">
+	          <ul>
+	            <li><a href="https://syndata.co">About Us</a></li>
+	            <li><a href="https://syndata.co">Contact us</a></li>
+	          </ul>
+	        </div>
+	        <!--<p>Copyright &copy; Design &amp; Referenced the theme <a href="http://www.themefisher.com">Themefisher</a>. All rights reserved.</p>-->
+	      </div>
+	    </div>
+	  </div>
+	</footer>
+
+    </body>
+</html>

@@ -1,0 +1,462 @@
+age,annualincome,callingnum,customerid,customersuspended,education,gender,homeowner,maritalstatus,occupation,state
+12,168147,4251078442,1,Yes,Bachelor or equivalent,Male,Yes,Single,Technology Related Job,WA
+42,29047,4251043419,2,Yes,Bachelor or equivalent,Female,Yes,Single,Technology Related Job,WI
+58,27076,4251055773,3,Yes,Master or equivalent,Female,Yes,Single,Technology Related Job,KS
+20,137977,4251042488,4,Yes,PhD or equivalent,Male,No,Single,Technology Related Job,KY
+36,136006,4251073177,5,Yes,High School or below,Male,Yes,Married,Technology Related Job,ND
+67,246906,4251023523,6,Yes,High School or below,Female,Yes,Married,Technology Related Job,OK
+14,244935,4251055777,7,Yes,High School or below,Male,Yes,Single,Technology Related Job,AZ
+45,105835,4251045184,8,Yes,High School or below,Female,Yes,Married,Technology Related Job,CA
+61,103864,4251031912,9,Yes,Bachelor or equivalent,Female,Yes,Single,Technology Related Job,MI
+23,214765,4251042084,10,Yes,Bachelor or equivalent,Male,Yes,Single,Technology Related Job,MN
+39,212794,4251079715,11,Yes,Master or equivalent,Female,Yes,Married,Technology Related Job,SC
+69,73694,4251022028,12,Yes,Master or equivalent,Male,No,Married,Technology Related Job,TN
+17,71723,4251047310,13,Yes,High School or below,Male,No,Married,Technology Related Job,FL
+48,182623,4251072591,14,Yes,High School or below,Female,Yes,Married,Technology Related Job,HI
+64,180652,4251060013,15,Yes,High School or below,Female,Yes,Single,Technology Related Job,NV
+26,41553,4251042322,16,Yes,High School or below,Male,Yes,Single,Technology Related Job,NH
+42,39582,4251011152,17,Yes,Bachelor or equivalent,Female,Yes,Married,Technology Related Job,VA
+72,150482,4251051704,18,Yes,Bachelor or equivalent,Male,No,Single,Non-technology Related Job,WV
+20,148511,4251070591,19,Yes,Master or equivalent,Male,Yes,Married,Technology Related Job,IA
+50,9412,4251047771,20,Yes,Master or equivalent,Female,Yes,Married,Non-technology Related Job,KY
+66,7441,4251079003,21,Yes,High School or below,Female,Yes,Single,Technology Related Job,ND
+29,118341,4251043431,22,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,OH
+45,116370,4251010033,23,Yes,High School or below,Female,Yes,Single,Technology Related Job,AK
+75,227270,4251016886,24,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,AR
+23,225299,4251045842,25,Yes,Bachelor or equivalent,Male,Yes,Married,Technology Related Job,MA
+53,86200,4251043061,26,Yes,Bachelor or equivalent,Female,Yes,Married,Non-technology Related Job,MN
+69,84229,4251098247,27,Yes,Bachelor or equivalent,Female,No,Single,Technology Related Job,SC
+31,195129,4251026170,28,Yes,Master or equivalent,Male,Yes,Married,Non-technology Related Job,SD
+47,193158,4251011887,29,Yes,High School or below,Female,Yes,Single,Technology Related Job,DE
+78,54058,4251017032,30,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,GA
+26,52087,4251029808,31,Yes,High School or below,Male,Yes,Married,Technology Related Job,NE
+56,162988,4251040357,32,Yes,High School or below,Female,No,Married,Non-technology Related Job,NH
+72,161017,4251093174,33,Yes,High School or below,Female,Yes,Married,Technology Related Job,VA
+34,21917,4251076747,34,Yes,Bachelor or equivalent,Male,Yes,Married,Non-technology Related Job,WA
+50,19946,4251068765,35,Yes,Bachelor or equivalent,Female,Yes,Single,Technology Related Job,IN
+13,130846,4251081945,36,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,KS
+28,128875,4251070137,37,Yes,PhD or equivalent,Male,Yes,Married,Technology Related Job,NC
+59,239776,4251075538,38,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,OH
+75,237805,4251098864,39,Yes,High School or below,Female,Yes,Married,Technology Related Job,AK
+37,98705,4251076763,40,Yes,High School or below,Male,Yes,Married,Non-technology Related Job,AR
+53,96734,4251067408,41,Yes,High School or below,Female,No,Single,Technology Related Job,MD
+15,207635,4251074247,42,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,MI
+31,205664,4251021408,43,Yes,Bachelor or equivalent,Male,Yes,Single,Technology Related Job,RI
+62,66564,4251086886,44,Yes,Bachelor or equivalent,Female,Yes,Single,Non-technology Related Job,SD
+77,64593,4251086023,45,Yes,Master or equivalent,Male,Yes,Married,Technology Related Job,DE
+40,175493,4251012570,46,Yes,PhD or equivalent,Female,No,Married,Non-technology Related Job,GA
+56,173522,4251066935,47,Yes,High School or below,Female,No,Single,Technology Related Job,MT
+18,34423,4251098797,48,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,NV
+34,32452,4251056800,49,Yes,High School or below,Male,Yes,Single,Technology Related Job,VT
+64,143352,4251010715,50,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,WA
+67,198309,4251036375,51,Yes,Bachelor or equivalent,Female,No,Married,Non-technology Related Job,SC
+14,196338,4251094710,52,Yes,Bachelor or equivalent,Female,No,Single,Technology Related Job,CO
+45,57239,4251034334,53,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,DE
+61,55268,4251094629,54,Yes,Master or equivalent,Female,Yes,Married,Technology Related Job,MO
+23,166168,4251096800,55,Yes,PhD or equivalent,Male,Yes,Single,Non-technology Related Job,NE
+39,164197,4251021021,56,Yes,High School or below,Male,Yes,Married,Technology Related Job,UT
+69,25098,4251009252,57,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,VA
+17,23127,4251079065,58,Yes,High School or below,Female,Yes,Single,Technology Related Job,ID
+48,134027,4251047459,59,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,IN
+64,132056,4251063562,60,Yes,Bachelor or equivalent,Female,No,Single,Technology Related Job,NM
+26,242956,4251013339,61,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,NC
+42,240985,4251043629,62,Yes,Master or equivalent,Male,Yes,Married,Technology Related Job,WY
+72,101886,4251029008,63,Yes,Master or equivalent,Female,Yes,Married,Non-technology Related Job,AK
+20,99915,4251074288,64,Yes,High School or below,Female,Yes,Single,Technology Related Job,LA
+50,210815,4251034446,65,No,High School or below,Male,No,Married,Non-technology Related Job,MD
+66,208844,4251087741,66,Yes,High School or below,Female,No,Single,Non-technology Related Job,OR
+29,69744,4251013661,67,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,RI
+45,67773,4251053518,68,Yes,Bachelor or equivalent,Male,Yes,Married,Non-technology Related Job,CO
+75,178674,4251039721,69,Yes,Bachelor or equivalent,Female,Yes,Married,Non-technology Related Job,DE
+23,176703,4251076213,70,Yes,Master or equivalent,Female,Yes,Married,Non-technology Related Job,MS
+53,37603,4251011034,71,Yes,Master or equivalent,Male,No,Married,Non-technology Related Job,MT
+69,35632,4251031686,72,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,TX
+31,146533,4251009557,73,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,VT
+47,144562,4251012749,74,Yes,High School or below,Male,No,Married,Non-technology Related Job,ID
+78,5462,4251074783,75,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,IN
+26,3491,4251074932,76,Yes,Bachelor or equivalent,Female,Yes,Married,Non-technology Related Job,NJ
+56,114391,4251049339,77,Yes,Bachelor or equivalent,Male,Yes,Married,Non-technology Related Job,NY
+72,112420,4251057900,78,Yes,Bachelor or equivalent,Female,Yes,Single,Non-technology Related Job,WI
+34,223321,4251025197,79,Yes,Master or equivalent,Male,No,Single,Non-technology Related Job,AL
+50,221350,4251082859,80,Yes,High School or below,Male,No,Married,Non-technology Related Job,LA
+13,82250,4251067462,81,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,MD
+28,80279,4251060710,82,Yes,High School or below,Male,Yes,Married,Non-technology Related Job,OK
+59,191179,4251062996,83,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,PA
+75,189208,4251020849,84,Yes,Bachelor or equivalent,Female,Yes,Single,Non-technology Related Job,CA
+37,50109,4251014655,85,Yes,Bachelor or equivalent,Male,No,Single,Non-technology Related Job,CT
+53,48138,4251072634,86,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,MS
+15,159038,4251026372,87,Yes,Bachelor or equivalent,Female,Yes,Single,Others,MT
+31,157067,4251043171,88,Yes,PhD or equivalent,Male,Yes,Married,Non-technology Related Job,TX
+62,17967,4251086105,89,Yes,High School or below,Female,Yes,Married,Others,UT
+77,15996,4251026864,90,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,HI
+40,126897,4251051801,91,Yes,High School or below,Male,Yes,Married,Others,IL
+56,124926,4251026937,92,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,NJ
+18,235826,4251073888,93,Yes,Bachelor or equivalent,Female,No,Single,Others,NY
+34,233855,4251058173,94,Yes,Bachelor or equivalent,Male,No,Married,Non-technology Related Job,WI
+64,94756,4251010073,95,Yes,Bachelor or equivalent,Female,Yes,Married,Others,WY
+12,92785,4251077583,96,Yes,Master or equivalent,Female,Yes,Married,Non-technology Related Job,KY
+43,203685,4251050340,97,Yes,PhD or equivalent,Male,Yes,Married,Others,ME
+59,201714,4251051083,98,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,OK
+21,62614,4251080552,99,Yes,High School or below,Female,No,Single,Others,PA
+37,60643,4251018301,100,Yes,High School or below,Male,Yes,Married,Non-technology Related Job,CA
+67,171544,4251088742,101,Yes,High School or below,Female,Yes,Single,Others,CO
+15,169573,4251008183,102,Yes,Bachelor or equivalent,Female,Yes,Married,Non-technology Related Job,MN
+45,30473,4251069005,103,Yes,Bachelor or equivalent,Male,Yes,Married,Others,MO
+61,28502,4251035719,104,Yes,Master or equivalent,Male,Yes,Single,Non-technology Related Job,TN
+24,139402,4251051604,105,Yes,Master or equivalent,Female,Yes,Single,Others,UT
+40,137431,4251045446,106,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,HI
+70,248332,4251051081,107,Yes,High School or below,Female,Yes,Single,Others,ID
+18,246361,4251061764,108,Yes,High School or below,Female,No,Married,Non-technology Related Job,NH
+48,107261,4251078847,109,Yes,High School or below,Male,Yes,Married,Others,NM
+64,105290,4251011750,110,Yes,Bachelor or equivalent,Female,Yes,Single,Non-technology Related Job,WV
+27,216191,4251019052,111,No,Bachelor or equivalent,Female,Yes,Married,Others,WY
+42,214219,4251045293,112,Yes,Master or equivalent,Male,Yes,Single,Non-technology Related Job,KY
+73,75120,4251090358,113,Yes,Master or equivalent,Female,No,Single,Others,LA
+21,73149,4251027387,114,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,OH
+51,184049,4251023465,115,Yes,High School or below,Male,Yes,Married,Others,OR
+67,182078,4251015876,116,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,AR
+29,42979,4251091456,117,Yes,High School or below,Male,Yes,Married,Others,CO
+45,41008,4251094781,118,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,MN
+76,151908,4251029646,119,Yes,Bachelor or equivalent,Female,Yes,Single,Others,MS
+23,149937,4251030583,120,Yes,Bachelor or equivalent,Female,Yes,Married,Non-technology Related Job,SD
+54,10837,4251098000,121,Yes,Master or equivalent,Male,Yes,Single,Others,TX
+70,8866,4251052178,122,Yes,High School or below,Female,No,Married,Non-technology Related Job,GA
+32,119767,4251021487,123,Yes,High School or below,Male,Yes,Married,Others,ID
+48,117796,4251059121,124,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,NH
+78,228696,4251063031,125,Yes,High School or below,Female,Yes,Single,Others,NJ
+26,226725,4251035491,126,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,WA
+57,87625,4251095066,127,Yes,Bachelor or equivalent,Male,No,Single,Others,WI
+73,85654,4251051194,128,Yes,Bachelor or equivalent,Female,No,Married,Non-technology Related Job,KS
+35,196555,4251050215,129,Yes,Bachelor or equivalent,Male,Yes,Married,Others,LA
+51,194584,4251089059,130,Yes,PhD or equivalent,Male,Yes,Single,Non-technology Related Job,OH
+13,55484,4251044929,131,Yes,High School or below,Female,Yes,Single,Others,OK
+29,53513,4251083354,132,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,AZ
+59,164414,4251016810,133,Yes,High School or below,Male,Yes,Single,Others,CA
+75,162443,4251067333,134,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,MI
+38,23343,4251019191,135,Yes,High School or below,Male,Yes,Married,Others,MS
+54,21372,4251099689,136,Yes,Bachelor or equivalent,Male,No,Single,Non-technology Related Job,SD
+16,132272,4251048496,137,Yes,Bachelor or equivalent,Female,Yes,Married,Others,TX
+32,130301,4251014631,138,Yes,Master or equivalent,Female,Yes,Single,Non-technology Related Job,FL
+62,241202,4251040866,139,Yes,PhD or equivalent,Male,Yes,Single,Others,HI
+78,239231,4251021188,140,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,NV
+40,100131,4251047614,141,Yes,High School or below,Male,No,Married,Others,NJ
+56,98160,4251034787,142,Yes,High School or below,Male,No,Married,Non-technology Related Job,WA
+19,209060,4251068165,143,Yes,High School or below,Female,Yes,Married,Others,WI
+35,207089,4251031769,144,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,IA
+65,67990,4251052161,145,Yes,Bachelor or equivalent,Female,Yes,Single,Others,KY
+13,66019,4251057202,146,Yes,Master or equivalent,Female,Yes,Married,Non-technology Related Job,ND
+43,176919,4251068698,147,Yes,Master or equivalent,Male,No,Single,Others,OK
+59,174948,4251049035,148,Yes,High School or below,Male,Yes,Married,Non-technology Related Job,AZ
+22,35849,4251090660,149,Yes,High School or below,Female,Yes,Married,Others,CA
+37,33877,4251097440,150,Yes,High School or below,Male,No,Single,Non-technology Related Job,MA
+68,144778,4251097187,151,Yes,High School or below,Female,Yes,Single,Others,MN
+16,142807,4251009903,152,Yes,Bachelor or equivalent,Female,Yes,Single,Others,SC
+46,3707,4251068636,153,Yes,Bachelor or equivalent,Male,Yes,Single,Others,TN
+62,1736,4251059732,154,Yes,Master or equivalent,Male,Yes,Married,Others,FL
+24,112637,4251036590,155,Yes,Master or equivalent,Female,No,Married,Others,HI
+40,110666,4251078179,156,Yes,High School or below,Male,No,Single,Others,NE
+71,221566,4251080675,157,No,High School or below,Female,Yes,Married,Others,NH
+18,219595,4251060413,158,Yes,High School or below,Female,Yes,Single,Others,VA
+49,80495,4251027119,159,Yes,High School or below,Male,Yes,Single,Others,WV
+65,78524,4251067555,160,Yes,Bachelor or equivalent,Male,Yes,Married,Others,IA
+27,189425,4251020599,161,Yes,Bachelor or equivalent,Female,No,Married,Others,KY
+43,187454,4251026136,162,Yes,Bachelor or equivalent,Male,Yes,Married,Others,NC
+73,48354,4251029984,163,Yes,Master or equivalent,Female,Yes,Married,Others,OH
+21,46383,4251068991,164,Yes,PhD or equivalent,Female,Yes,Single,Others,AK
+52,157283,4251044655,165,Yes,High School or below,Male,Yes,Single,Others,AR
+68,155312,4251078387,166,Yes,High School or below,Male,Yes,Married,Others,MA
+30,16213,4251023466,167,Yes,High School or below,Female,Yes,Single,Others,MN
+46,14242,4251055981,168,Yes,High School or below,Male,Yes,Married,Others,SC
+76,125142,4251096517,169,Yes,Bachelor or equivalent,Female,No,Married,Others,SD
+24,123171,4251044889,170,Yes,Bachelor or equivalent,Female,No,Single,Others,DE
+54,234072,4251039827,171,Yes,Bachelor or equivalent,Male,Yes,Single,Others,GA
+70,232101,4251040220,172,Yes,Master or equivalent,Female,Yes,Single,Others,NE
+33,93001,4251068145,173,Yes,PhD or equivalent,Female,Yes,Single,Others,NH
+49,91030,4251082582,174,Yes,High School or below,Male,Yes,Married,Others,VA
+79,201930,4251009016,175,Yes,High School or below,Female,No,Married,Others,WA
+27,199959,4251021411,176,Yes,High School or below,Female,Yes,Single,Others,IN
+57,60860,4251021766,177,Yes,High School or below,Male,Yes,Married,Others,KS
+73,58889,4251058604,178,Yes,Bachelor or equivalent,Female,Yes,Single,Others,NC
+36,169789,4251057093,179,Yes,Bachelor or equivalent,Male,Yes,Single,Others,OH
+51,167818,4251016647,180,Yes,Master or equivalent,Male,Yes,Married,Others,AK
+14,28718,4251065601,181,Yes,Master or equivalent,Female,Yes,Married,Others,AZ
+30,26747,4251077240,182,Yes,High School or below,Female,Yes,Married,Others,MD
+60,137648,4251033563,183,Yes,High School or below,Male,Yes,Married,Others,MI
+76,135677,4251069265,184,Yes,High School or below,Female,No,Single,Others,RI
+38,246577,4251097427,185,Yes,High School or below,Male,Yes,Single,Others,SD
+54,244606,4251098131,186,Yes,Bachelor or equivalent,Male,Yes,Married,Others,DE
+17,105506,4251030328,187,Yes,Bachelor or equivalent,Female,Yes,Single,Others,FL
+32,103535,4251019739,188,Yes,Master or equivalent,Female,Yes,Married,Others,MT
+63,214436,4251025904,189,Yes,Master or equivalent,Male,No,Married,Others,NV
+79,212465,4251011270,190,Yes,High School or below,Female,Yes,Single,Others,VT
+41,73365,4251076267,191,Yes,High School or below,Male,Yes,Single,Others,WA
+57,71394,4251076034,192,Yes,High School or below,Male,Yes,Single,Others,IN
+19,182295,4251055653,193,Yes,High School or below,Female,Yes,Single,Others,IA
+35,180324,4251086072,194,Yes,Bachelor or equivalent,Female,Yes,Married,Others,NY
+66,41224,4251039025,195,Yes,Bachelor or equivalent,Male,Yes,Married,Others,ND
+14,39253,4251070261,196,Yes,Bachelor or equivalent,Female,Yes,Single,Others,AL
+44,150153,4251009341,197,Yes,Master or equivalent,Male,Yes,Single,Others,AZ
+60,148182,4251064888,198,Yes,High School or below,Male,No,Single,Others,MD
+22,9083,4251075188,199,Yes,High School or below,Female,Yes,Single,Others,MA
+38,7112,4251090005,200,Yes,High School or below,Female,Yes,Married,Others,PA
+68,118012,4251019737,201,Yes,High School or below,Male,Yes,Married,Technology Related Job,SC
+16,116041,4251076597,202,Yes,High School or below,Female,Yes,Single,Others,CT
+47,226941,4251063167,203,No,Bachelor or equivalent,Male,No,Married,Technology Related Job,FL
+63,224970,4251022048,204,Yes,Bachelor or equivalent,Male,No,Single,Others,MT
+25,85871,4251010933,205,Yes,Bachelor or equivalent,Female,Yes,Single,Technology Related Job,NE
+41,83900,4251088023,206,Yes,PhD or equivalent,Male,Yes,Married,Others,UT
+71,194800,4251019166,207,Yes,High School or below,Female,Yes,Married,Technology Related Job,VA
+19,192829,4251082226,208,Yes,High School or below,Female,Yes,Married,Others,IL
+50,53730,4251090404,209,Yes,High School or below,Male,Yes,Married,Technology Related Job,IA
+65,51759,4251032659,210,Yes,High School or below,Male,Yes,Single,Others,NY
+28,162659,4251024635,211,Yes,Bachelor or equivalent,Female,Yes,Single,Technology Related Job,NC
+44,160688,4251053343,212,Yes,Bachelor or equivalent,Male,No,Married,Others,WY
+74,21588,4251010950,213,Yes,Bachelor or equivalent,Female,Yes,Single,Technology Related Job,AK
+22,19617,4251097486,214,Yes,Master or equivalent,Female,Yes,Married,Others,ME
+52,130518,4251028322,215,Yes,PhD or equivalent,Male,Yes,Married,Technology Related Job,MA
+68,128547,4251100276,216,Yes,High School or below,Male,Yes,Single,Others,PA
+31,239447,4251011810,217,Yes,High School or below,Female,No,Single,Technology Related Job,SC
+46,237476,4251070743,218,Yes,High School or below,Male,No,Single,Others,CO
+77,98376,4251032049,219,Yes,High School or below,Female,Yes,Single,Technology Related Job,DE
+25,96405,4251042423,220,Yes,Bachelor or equivalent,Female,Yes,Married,Others,MO
+55,207306,4251067185,221,Yes,Bachelor or equivalent,Male,Yes,Married,Technology Related Job,NE
+71,205335,4251099339,222,Yes,Master or equivalent,Male,Yes,Single,Others,UT
+33,66235,4251031263,223,Yes,Master or equivalent,Female,Yes,Married,Technology Related Job,VA
+49,64264,4251090380,224,Yes,High School or below,Male,Yes,Single,Others,ID
+12,175164,4251029437,225,Yes,High School or below,Female,Yes,Single,Technology Related Job,IN
+27,173193,4251025924,226,Yes,High School or below,Female,No,Married,Others,NM
+58,34094,4251079245,227,Yes,High School or below,Male,Yes,Married,Technology Related Job,NC
+74,32123,4251040745,228,Yes,Bachelor or equivalent,Male,Yes,Married,Others,WY
+36,143023,4251010803,229,Yes,Bachelor or equivalent,Female,Yes,Married,Technology Related Job,AK
+52,141052,4251014010,230,Yes,Master or equivalent,Male,Yes,Single,Others,LA
+14,1953,4251050408,231,Yes,Master or equivalent,Female,No,Single,Technology Related Job,MD
+30,249982,4251014444,232,Yes,High School or below,Female,No,Married,Others,OR
+61,110882,4251013442,233,Yes,High School or below,Male,Yes,Single,Technology Related Job,RI
+77,108911,4251069837,234,Yes,High School or below,Male,Yes,Married,Others,CO
+39,219811,4251089321,235,Yes,High School or below,Female,Yes,Married,Technology Related Job,DE
+55,217840,4251020170,236,Yes,Bachelor or equivalent,Male,Yes,Single,Others,MS
+17,78741,4251013618,237,Yes,Bachelor or equivalent,Female,No,Single,Technology Related Job,MT
+33,76770,4251059241,238,Yes,Bachelor or equivalent,Female,Yes,Single,Others,TX
+63,187670,4251028785,239,Yes,Master or equivalent,Male,Yes,Single,Technology Related Job,VT
+79,185699,4251081972,240,Yes,High School or below,Female,Yes,Married,Others,ID
+42,46599,4251012893,241,Yes,High School or below,Male,Yes,Married,Technology Related Job,IN
+58,44628,4251008725,242,Yes,High School or below,Male,Yes,Single,Others,NJ
+20,155529,4251044106,243,Yes,High School or below,Female,Yes,Married,Technology Related Job,NY
+36,153558,4251068888,244,Yes,High School or below,Female,Yes,Single,Others,WI
+66,14458,4251081675,245,Yes,Bachelor or equivalent,Male,No,Single,Technology Related Job,AL
+14,12487,4251056803,246,Yes,Bachelor or equivalent,Female,No,Married,Others,LA
+45,123388,4251054104,247,Yes,Bachelor or equivalent,Male,Yes,Married,Technology Related Job,MD
+60,121416,4251034944,248,Yes,PhD or equivalent,Male,Yes,Married,Others,OR
+23,232317,4251038693,249,No,High School or below,Female,Yes,Married,Technology Related Job,PA
+39,230346,4251070480,250,Yes,High School or below,Female,Yes,Single,Others,CA
+69,91246,4251026089,251,Yes,High School or below,Male,No,Single,Technology Related Job,CT
+17,89275,4251052669,252,Yes,High School or below,Female,Yes,Married,Others,MS
+47,200176,4251024432,253,Yes,High School or below,Male,Yes,Single,Technology Related Job,MT
+63,198205,4251009072,254,Yes,Bachelor or equivalent,Male,Yes,Married,Others,TX
+26,59105,4251076011,255,Yes,Bachelor or equivalent,Female,Yes,Married,Technology Related Job,UT
+41,57134,4251085887,256,Yes,Master or equivalent,Female,Yes,Single,Others,HI
+72,168034,4251063028,257,Yes,PhD or equivalent,Male,Yes,Single,Technology Related Job,IL
+20,166063,4251018340,258,Yes,High School or below,Female,Yes,Single,Others,NJ
+50,26964,4251031587,259,Yes,High School or below,Male,Yes,Single,Technology Related Job,NY
+66,24993,4251029551,260,Yes,High School or below,Male,No,Married,Others,WI
+28,135893,4251023387,261,Yes,High School or below,Female,Yes,Married,Technology Related Job,WY
+44,133922,4251064057,262,Yes,Bachelor or equivalent,Female,Yes,Single,Others,KY
+75,244822,4251056602,263,Yes,Bachelor or equivalent,Male,Yes,Single,Technology Related Job,ME
+23,242851,4251063395,264,Yes,Master or equivalent,Female,Yes,Single,Technology Related Job,OK
+53,103752,4251076580,265,Yes,Master or equivalent,Male,No,Single,Technology Related Job,PA
+69,101781,4251098267,266,Yes,High School or below,Male,Yes,Married,Technology Related Job,CA
+31,212681,4251034912,267,Yes,High School or below,Female,Yes,Married,Technology Related Job,CO
+47,210710,4251099926,268,Yes,High School or below,Male,Yes,Single,Technology Related Job,MN
+77,71611,4251046156,269,Yes,High School or below,Male,Yes,Married,Technology Related Job,MO
+25,69640,4251091890,270,Yes,Bachelor or equivalent,Female,Yes,Single,Technology Related Job,TN
+56,180540,4251054911,271,Yes,Bachelor or equivalent,Male,Yes,Single,Technology Related Job,UT
+72,178569,4251031483,272,Yes,Master or equivalent,Male,Yes,Married,Technology Related Job,HI
+34,39469,4251042218,273,Yes,Master or equivalent,Female,Yes,Married,Technology Related Job,ID
+50,37498,4251069247,274,Yes,High School or below,Male,No,Married,Technology Related Job,NH
+12,148399,4251099881,275,Yes,High School or below,Female,Yes,Married,Technology Related Job,NM
+28,146428,4251046451,276,Yes,High School or below,Female,Yes,Single,Technology Related Job,WV
+59,7328,4251057321,277,Yes,High School or below,Male,Yes,Single,Technology Related Job,WY
+74,5357,4251039265,278,Yes,Bachelor or equivalent,Male,Yes,Married,Technology Related Job,KY
+37,116257,4251091065,279,Yes,Bachelor or equivalent,Female,No,Single,Technology Related Job,LA
+53,114286,4251055748,280,Yes,Bachelor or equivalent,Male,Yes,Married,Technology Related Job,OH
+15,225187,4251031242,281,Yes,Master or equivalent,Female,Yes,Married,Technology Related Job,OR
+31,223216,4251033030,282,Yes,PhD or equivalent,Female,Yes,Single,Technology Related Job,AR
+61,84116,4251047312,283,Yes,High School or below,Male,Yes,Single,Technology Related Job,CO
+77,82145,4251049497,284,Yes,High School or below,Male,Yes,Single,Technology Related Job,MN
+40,193046,4251008934,285,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,MS
+55,191074,4251023315,286,Yes,High School or below,Male,Yes,Married,Technology Related Job,SD
+18,51975,4251092302,287,Yes,Bachelor or equivalent,Female,Yes,Married,Non-technology Related Job,TX
+34,50004,4251099429,288,Yes,Bachelor or equivalent,Female,No,Single,Technology Related Job,GA
+64,160904,4251063924,289,Yes,Bachelor or equivalent,Male,Yes,Married,Non-technology Related Job,ID
+12,158933,4251032404,290,Yes,Master or equivalent,Male,Yes,Single,Technology Related Job,NH
+42,19834,4251027514,291,Yes,PhD or equivalent,Female,Yes,Single,Non-technology Related Job,NJ
+58,17863,4251067190,292,Yes,High School or below,Male,Yes,Married,Technology Related Job,WA
+21,128763,4251053912,293,Yes,High School or below,Female,No,Married,Non-technology Related Job,WI
+37,126792,4251071543,294,Yes,High School or below,Female,No,Married,Technology Related Job,KS
+67,237692,4251079674,295,Yes,High School or below,Male,Yes,Married,Non-technology Related Job,LA
+15,235721,4251029193,296,Yes,Bachelor or equivalent,Male,Yes,Single,Technology Related Job,OH
+45,96622,4251079351,297,Yes,Bachelor or equivalent,Female,Yes,Single,Non-technology Related Job,OR
+61,94651,4251053352,298,Yes,Master or equivalent,Male,Yes,Married,Technology Related Job,AZ
+23,205551,4251044544,299,Yes,Master or equivalent,Female,Yes,Single,Non-technology Related Job,CA
+39,203580,4251065361,300,Yes,High School or below,Female,Yes,Married,Technology Related Job,MI
+70,64480,4251051560,301,Yes,High School or below,Male,Yes,Married,Non-technology Related Job,MS
+18,62509,4251014159,302,Yes,High School or below,Female,No,Single,Technology Related Job,SD
+48,173410,4251036842,303,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,TX
+64,171439,4251040042,304,Yes,Bachelor or equivalent,Male,Yes,Single,Technology Related Job,FL
+26,32339,4251093071,305,Yes,Bachelor or equivalent,Female,Yes,Single,Non-technology Related Job,HI
+42,30368,4251032444,306,Yes,Master or equivalent,Female,Yes,Married,Technology Related Job,NV
+72,141269,4251081794,307,Yes,Master or equivalent,Male,No,Married,Non-technology Related Job,NJ
+20,139298,4251022993,308,Yes,High School or below,Female,No,Single,Technology Related Job,WA
+51,198,4251041605,309,Yes,High School or below,Male,Yes,Married,Non-technology Related Job,WI
+67,248227,4251063165,310,Yes,High School or below,Male,Yes,Single,Technology Related Job,IA
+29,109127,4251030064,311,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,KY
+45,107156,4251022019,312,Yes,Bachelor or equivalent,Female,Yes,Married,Technology Related Job,ND
+75,218057,4251068592,313,Yes,Bachelor or equivalent,Male,No,Married,Non-technology Related Job,OK
+23,216086,4251045000,314,Yes,Bachelor or equivalent,Female,Yes,Married,Technology Related Job,AZ
+54,76986,4251093527,315,Yes,Master or equivalent,Male,Yes,Married,Non-technology Related Job,CA
+69,75015,4251015032,316,Yes,High School or below,Male,Yes,Single,Technology Related Job,MA
+32,185915,4251041567,317,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,MN
+48,183944,4251078705,318,Yes,High School or below,Female,Yes,Married,Technology Related Job,SC
+78,44845,4251025175,319,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,TN
+26,42874,4251071316,320,Yes,High School or below,Female,Yes,Married,Technology Related Job,FL
+56,153774,4251079509,321,Yes,Bachelor or equivalent,Male,No,Married,Non-technology Related Job,HI
+72,151803,4251086138,322,Yes,Bachelor or equivalent,Male,No,Single,Technology Related Job,NE
+35,12703,4251095202,323,Yes,Bachelor or equivalent,Female,Yes,Single,Non-technology Related Job,NH
+50,10732,4251092646,324,Yes,PhD or equivalent,Female,Yes,Single,Technology Related Job,VA
+13,121633,4251070987,325,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,WV
+29,119662,4251062038,326,Yes,High School or below,Female,Yes,Married,Technology Related Job,IA
+59,230562,4251026828,327,Yes,High School or below,Male,No,Married,Non-technology Related Job,KY
+75,228591,4251075598,328,No,High School or below,Male,Yes,Single,Technology Related Job,ND
+37,89492,4251056802,329,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,OH
+53,87521,4251070811,330,Yes,Bachelor or equivalent,Male,Yes,Single,Technology Related Job,AK
+16,198421,4251056808,331,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,AR
+32,196450,4251075214,332,Yes,Master or equivalent,Female,Yes,Married,Technology Related Job,MA
+62,57350,4251024077,333,Yes,PhD or equivalent,Male,Yes,Married,Non-technology Related Job,MN
+78,55379,4251062616,334,Yes,High School or below,Male,Yes,Single,Technology Related Job,SC
+40,166280,4251067214,335,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,SD
+56,164309,4251036015,336,Yes,High School or below,Male,No,Single,Technology Related Job,DE
+18,25209,4251084303,337,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,GA
+34,23238,4251035866,338,Yes,Bachelor or equivalent,Female,Yes,Married,Technology Related Job,NE
+65,134138,4251068969,339,Yes,Bachelor or equivalent,Male,Yes,Married,Non-technology Related Job,NH
+13,132167,4251080078,340,Yes,Master or equivalent,Male,Yes,Married,Technology Related Job,VA
+43,243068,4251010965,341,Yes,Master or equivalent,Female,No,Married,Non-technology Related Job,WA
+59,241097,4251043732,342,Yes,High School or below,Male,Yes,Single,Technology Related Job,IN
+21,101997,4251027516,343,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,KS
+37,100026,4251050313,344,Yes,High School or below,Female,Yes,Married,Technology Related Job,NC
+68,210927,4251067583,345,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,OH
+15,208956,4251061669,346,Yes,Bachelor or equivalent,Male,Yes,Married,Technology Related Job,AK
+46,69856,4251050731,347,Yes,Bachelor or equivalent,Female,Yes,Married,Non-technology Related Job,AZ
+62,67885,4251048383,348,Yes,Master or equivalent,Male,Yes,Single,Non-technology Related Job,MD
+24,178785,4251030190,349,Yes,Master or equivalent,Female,Yes,Single,Non-technology Related Job,MI
+40,176814,4251051978,350,Yes,High School or below,Female,No,Single,Non-technology Related Job,RI
+70,37715,4251050541,351,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,SD
+18,35744,4251020778,352,Yes,High School or below,Male,Yes,Married,Non-technology Related Job,DE
+49,146644,4251050226,353,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,FL
+64,144673,4251034924,354,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,MT
+27,5573,4251041313,355,Yes,Bachelor or equivalent,Female,No,Married,Non-technology Related Job,NV
+43,3602,4251078665,356,Yes,Bachelor or equivalent,Female,Yes,Single,Non-technology Related Job,VT
+73,114503,4251069678,357,Yes,Master or equivalent,Male,Yes,Single,Non-technology Related Job,WA
+21,112532,4251082182,358,Yes,High School or below,Male,Yes,Married,Non-technology Related Job,IN
+51,223432,4251010734,359,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,IA
+67,221461,4251031517,360,Yes,High School or below,Male,Yes,Married,Non-technology Related Job,NY
+30,82361,4251051999,361,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,ND
+46,80390,4251044465,362,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,AL
+76,191291,4251018648,363,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,AZ
+24,189320,4251099812,364,Yes,Bachelor or equivalent,Female,No,Married,Non-technology Related Job,MD
+54,50220,4251032857,365,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,MA
+70,48249,4251096620,366,Yes,Master or equivalent,Male,Yes,Married,Non-technology Related Job,PA
+32,159150,4251036082,367,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,SC
+48,157179,4251061169,368,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,CT
+79,18079,4251029851,369,Yes,High School or below,Male,No,Single,Non-technology Related Job,FL
+27,16108,4251049413,370,Yes,High School or below,Female,No,Single,Non-technology Related Job,MT
+57,127008,4251083915,371,Yes,High School or below,Male,Yes,Single,Others,NE
+73,125037,4251099522,372,Yes,Bachelor or equivalent,Male,Yes,Married,Non-technology Related Job,UT
+35,235938,4251041119,373,Yes,Bachelor or equivalent,Female,Yes,Married,Others,VA
+51,233967,4251066605,374,No,Master or equivalent,Female,Yes,Single,Non-technology Related Job,IL
+13,94867,4251049421,375,Yes,PhD or equivalent,Male,Yes,Married,Others,IA
+29,92896,4251089574,376,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,NY
+60,203796,4251056538,377,Yes,High School or below,Male,Yes,Single,Others,ND
+76,201825,4251072445,378,Yes,High School or below,Male,No,Married,Non-technology Related Job,WY
+38,62726,4251021918,379,Yes,High School or below,Female,Yes,Married,Others,AK
+54,60755,4251040446,380,Yes,Bachelor or equivalent,Female,Yes,Married,Non-technology Related Job,ME
+16,171655,4251095183,381,Yes,Bachelor or equivalent,Male,Yes,Married,Others,MA
+32,169684,4251060660,382,Yes,Master or equivalent,Female,Yes,Single,Non-technology Related Job,PA
+63,30585,4251035465,383,Yes,Master or equivalent,Male,No,Single,Others,SC
+78,28613,4251093701,384,Yes,High School or below,Male,No,Married,Non-technology Related Job,CO
+41,139514,4251096270,385,Yes,High School or below,Female,Yes,Single,Others,DE
+57,137543,4251038353,386,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,MO
+19,248443,4251096060,387,Yes,High School or below,Male,Yes,Married,Others,NE
+35,246472,4251010815,388,Yes,Bachelor or equivalent,Female,Yes,Single,Non-technology Related Job,UT
+65,107373,4251071189,389,Yes,Bachelor or equivalent,Male,No,Single,Others,VA
+13,105402,4251056977,390,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,ID
+44,216302,4251044877,391,Yes,Master or equivalent,Female,Yes,Single,Others,IN
+59,214331,4251016038,392,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,NM
+22,75231,4251010120,393,Yes,High School or below,Male,Yes,Married,Others,NC
+38,73260,4251048580,394,Yes,High School or below,Female,Yes,Single,Non-technology Related Job,WY
+68,184161,4251094900,395,Yes,High School or below,Male,Yes,Single,Others,AK
+16,182190,4251011148,396,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,LA
+46,43090,4251038315,397,Yes,Bachelor or equivalent,Female,No,Single,Others,MD
+62,41119,4251064132,398,Yes,Bachelor or equivalent,Male,No,Married,Non-technology Related Job,OR
+25,152019,4251058437,399,Yes,Master or equivalent,Female,Yes,Married,Others,RI
+41,150048,4251056554,400,Yes,PhD or equivalent,Female,Yes,Single,Non-technology Related Job,CO
+71,10949,4251075157,401,Yes,High School or below,Male,Yes,Married,Others,DE
+19,8978,4251053662,402,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,MS
+49,119878,4251091500,403,Yes,High School or below,Female,No,Single,Others,MT
+65,117907,4251073560,404,Yes,High School or below,Male,Yes,Married,Non-technology Related Job,TX
+27,228808,4251050624,405,Yes,Bachelor or equivalent,Female,Yes,Married,Others,VT
+43,226837,4251077587,406,Yes,Bachelor or equivalent,Female,Yes,Married,Non-technology Related Job,ID
+74,87737,4251057800,407,Yes,Bachelor or equivalent,Male,Yes,Married,Others,IN
+22,85766,4251021752,408,Yes,Master or equivalent,Male,Yes,Single,Non-technology Related Job,NM
+52,196666,4251083889,409,Yes,PhD or equivalent,Female,Yes,Single,Others,NY
+68,194695,4251048001,410,Yes,High School or below,Male,Yes,Married,Non-technology Related Job,WI
+30,55596,4251036585,411,Yes,High School or below,Female,Yes,Single,Others,AL
+46,53625,4251090966,412,Yes,High School or below,Female,No,Married,Non-technology Related Job,LA
+77,164525,4251044931,413,Yes,High School or below,Male,Yes,Married,Others,MD
+24,162554,4251066273,414,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,OR
+55,23454,4251062684,415,Yes,Bachelor or equivalent,Female,Yes,Single,Others,PA
+71,21483,4251039507,416,Yes,Master or equivalent,Male,Yes,Single,Non-technology Related Job,CA
+33,132384,4251078936,417,Yes,Master or equivalent,Female,No,Single,Others,CT
+49,130413,4251015089,418,Yes,High School or below,Female,Yes,Married,Non-technology Related Job,MS
+79,241313,4251026817,419,Yes,High School or below,Male,Yes,Married,Others,MT
+27,239342,4251047598,420,No,High School or below,Male,Yes,Single,Non-technology Related Job,TX
+58,100243,4251024193,421,Yes,High School or below,Female,Yes,Married,Others,UT
+73,98271,4251047800,422,Yes,Bachelor or equivalent,Male,Yes,Single,Non-technology Related Job,HI
+36,209172,4251026562,423,Yes,Bachelor or equivalent,Female,Yes,Single,Others,IL
+52,207201,4251068448,424,Yes,Master or equivalent,Female,Yes,Married,Non-technology Related Job,NJ
+14,68101,4251071726,425,Yes,Master or equivalent,Male,Yes,Married,Others,NY
+30,66130,4251027449,426,Yes,High School or below,Female,No,Married,Non-technology Related Job,WI
+60,177031,4251022691,427,Yes,High School or below,Female,Yes,Married,Others,WY
+76,175060,4251046505,428,Yes,High School or below,Male,Yes,Single,Non-technology Related Job,KY
+39,35960,4251071565,429,Yes,High School or below,Female,Yes,Single,Others,ME
+55,33989,4251046359,430,Yes,Bachelor or equivalent,Female,Yes,Married,Non-technology Related Job,OK
+17,144889,4251098566,431,Yes,Bachelor or equivalent,Male,No,Single,Others,PA
+33,142918,4251046980,432,Yes,Bachelor or equivalent,Female,Yes,Married,Non-technology Related Job,CA
+63,3819,4251079483,433,Yes,Master or equivalent,Male,Yes,Married,Others,CO
+79,1848,4251098998,434,Yes,High School or below,Male,Yes,Single,Others,MN
+41,112748,4251057489,435,Yes,High School or below,Female,Yes,Single,Others,MO
+57,110777,4251065341,436,Yes,High School or below,Female,Yes,Single,Others,TN
+20,221677,4251014559,437,Yes,High School or below,Male,Yes,Single,Others,UT
+36,219706,4251021061,438,Yes,High School or below,Female,Yes,Married,Others,HI
+66,80607,4251094788,439,Yes,Bachelor or equivalent,Male,Yes,Married,Others,ID
+14,78636,4251055872,440,Yes,Bachelor or equivalent,Male,No,Single,Others,NH
+44,189536,4251050744,441,Yes,Bachelor or equivalent,Female,Yes,Married,Others,NM
+60,187565,4251052429,442,Yes,PhD or equivalent,Female,Yes,Single,Others,WV
+22,48466,4251055064,443,Yes,High School or below,Male,Yes,Single,Others,WY
+38,46495,660511031,444,Yes,High School or below,Female,Yes,Married,Others,KY
+69,157395,160511031,445,Yes,High School or below,Male,No,Married,Others,LA
+17,155424,960511031,446,Yes,High School or below,Male,No,Married,Others,OH
+47,16324,943580631,447,Yes,High School or below,Female,Yes,Married,Others,OR
+63,14353,143580631,448,Yes,Bachelor or equivalent,Female,Yes,Single,Others,AR
+25,125254,643580631,449,Yes,Bachelor or equivalent,Male,Yes,Single,Others,CO
+41,123283,133056067,450,Yes,Master or equivalent,Female,Yes,Married,Others,MN
+72,234183,933056067,451,Yes,PhD or equivalent,Male,Yes,Single,Others,MS
+19,232212,633056067,452,Yes,High School or below,Male,Yes,Married,Others,SD
+50,93112,913725637,453,Yes,High School or below,Female,Yes,Married,Others,TX
+66,91141,113725637,454,Yes,High School or below,Female,No,Single,Others,GA
+28,202042,613725637,455,Yes,High School or below,Male,Yes,Single,Others,ID
+44,200071,626097237,456,Yes,Bachelor or equivalent,Female,Yes,Single,Others,NH
+74,60971,126097237,457,Yes,Bachelor or equivalent,Male,Yes,Single,Others,NM
+22,59000,926097237,458,Yes,Master or equivalent,Male,Yes,Married,Others,WA
+53,169900,613860666,459,Yes,Master or equivalent,Female,No,Married,Others,WI
+68,167929,913860666,460,Yes,High School or below,Male,No,Single,Others,KS
+31,28830,113860666,461,Yes,High School or below,Female,Yes,Single,Others,LA

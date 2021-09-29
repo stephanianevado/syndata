@@ -1,0 +1,134 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Syndata">
+    <meta name="author" content="Syndata AB">
+
+    <title>Syndata</title>
+    <meta name="description" content="Syndata solves real data problems without the real data risks">
+    <!-- CSS -->
+    <link href="{% static 'bootstrap/css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'others/css/fileinput.min.css' %}" rel="stylesheet">
+    <link href="{% static 'others/css/landing-page.css' %}" rel="stylesheet">
+    <!-- bootstrap-select -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css" />
+    <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+          type="text/css">
+    <script src="{% static 'jquery/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+</head>
+
+<body>
+
+<div class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="navbar-header">
+                    <!--<div class="navbar-brand navbar-left">
+                        <img id="dt_logo" style="margin-top: 0px;margin-left: 350px;width: 50%" class="img-responsive" src="{% static 'images/rsz_header_logo.png' %}">
+                    </div>-->
+                    <div class="navbar-brand">
+                        <img style="margin-top: 100px;margin-left:50px;width: 100%" class="img-responsive" src="{% static 'images/rsz_datasynthesizer_logo.png' %}">
+                    </div>
+                    <div class="intro-message">
+                        <div class="col-lg-6">
+                        <form method="post" onsubmit="return validateInput()" enctype="multipart/form-data">{% csrf_token %}
+                            <h4>Load a real dataset in a CSV file</h4>
+                            <input id="file_upload" size="50%" type="file" accept=".csv" class="filestyle" data-icon="false" name="user_upload_data" onchange='triggerValidation(this)'>
+                            <!--<h4>Select a sample dataset<span>&nbsp;&nbsp;</span></h4>
+                            <select id="dataset_select" name="dataset_select" class="selectpicker">
+                                {% for datai in passed_play_data %}
+                                 <option value="{{ datai | safe }}">{{ datai }}</option>
+                                {% endfor %}
+                            </select>-->
+                            <!--<span><br><br></span>-->
+                            <input id="upload_btn" class="btn btn-default btn-lg top-buffer" aria-haspopup="true"
+                                   aria-expanded="false" type="submit" value="Upload Data"/>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FOOTER -->
+<div class="footer_div">
+    <div class="container_footer">
+        <footer class="main_footer">
+            <p class="text-muted">
+                &copy; 2020 <a href="https://syndata.co"> Syndata</a>
+                | <a href="https://syndata.co/privacy">Privacy</a>
+                | <a href="https://syndata.co">Contact Us</a>
+            </p>
+        </footer>
+    </div>
+</div>
+
+<style>
+
+    .main_footer {
+        background: inherit;
+    }
+
+    .container_footer {
+        display: flex;
+        justify-content: center;
+    }
+
+</style>
+
+<!-- play data toolip setting-->
+<script type="text/javascript" language="javascript">
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip({
+        title: "All the test datasets here are sample datasets. The original datasets can be found in our GitHub repository. Check the code link in the footer of this page!",
+        });
+});
+</script>
+<!-- if upload data size less than threshold, then alert user to upload new data or leave it blank use test data-->
+<script type="text/javascript" language="JavaScript">
+    function validateInput() {
+        if (!$("input[id='file_upload']").val()) {
+            alert('Please upload a .csv file');
+            return false;
+        }
+        return true;   
+    }
+
+    // validate upload data size
+    //var data_size_flag = {{passed_size_flag | safe}};
+    //if (data_size_flag == false){
+    //    alert("You need to upload a data set that has more than 20 rows! Or leave it blank to use our test data!");
+    //}
+</script>
+<!-- if upload data is not .csv file, then alert user to upload new data or leave it blank to use test data-->
+<script type="text/javascript" language="javascript">
+    // for browser that does not support .csv accept
+    var regex = new RegExp("(.*?)\.(csv)$");
+
+    function triggerValidation(el) {
+      if (!(regex.test(el.value.toLowerCase()))) {
+        el.value = '';
+        alert('Please upload a .csv file with more than 20 rows');
+      }
+    }
+
+</script>
+
+
+
+<!-- JavaScript -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{% static 'others/js/bootstrap-filestyle.min.js' %}"></script>
+<script src="{% static 'others/js/fileinput.min.js' %}"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/js/bootstrap-select.min.js"></script>
+</body>
+</html>
