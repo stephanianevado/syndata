@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+import os
 
 from time import time, sleep
 
@@ -23,6 +24,8 @@ def index(request):
     server_data_names_map = {"customer_churn": "CC","risk_score": "RS","stockholm":"SH"}
     # create a time stamp for current uploading
     data_server_path = "./media/"
+    if not os.path.exists(data_server_path):
+        os.makedirs(data_server_path)
     play_data_server_path = "./playdata/syntheticbox/"
     cur_time_stamp = str(int(time()*1e7))
     upload_data_size_threshold = 20
