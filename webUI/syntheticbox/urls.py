@@ -1,7 +1,7 @@
 from django.conf.urls import url
 
 from . import views
-from django.contrib.staticfiles.urls import staticfiles_urlpatterns 
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 app_name = 'syntheticbox'
 urlpatterns = [

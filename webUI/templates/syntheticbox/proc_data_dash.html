@@ -1,20 +1,20 @@
 {% load static %}
 <head>
     <!-- Bootstrap Core CSS -->
-    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">    
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
     <!-- MetisMenu CSS -->
     <link href="{% static 'metisMenu/metisMenu.min.css' %}" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="{% static 'sbadmin/css/sb-admin-2-original.css' %}" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="{% static 'others/css/fileinput.min.css' %}" rel="stylesheet">
-    <link href="{% static 'others/css/landing-page.css' %}" rel="stylesheet">        
+    <link href="{% static 'others/css/landing-page.css' %}" rel="stylesheet">
     <!-- Custom Fonts -->
-    <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">   
+    <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
     <!-- jQuery -->
     <script src="{% static 'jquery/jquery-3.2.1.min.js' %}"></script>
     <!-- Bootstrap-select -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
           type="text/css">
     <link href="{% static 'datatables/media/css/jquery.dataTables.css' %}" rel="stylesheet">
@@ -29,7 +29,8 @@
 <!-- HEADER/LOGO -->
 <div class="intro-header">
     <div class="navbar-brand">
-        <img style="margin-top: 0px;margin-left:10px;width: 100%" class="img-responsive" src="{% static 'images/rsz_datasynthesizer_logo.png' %}">
+        <img style="margin-top: 0px;margin-left:10px;width: 100%" class="img-responsive"
+             src="{% static 'images/rsz_datasynthesizer_logo.png' %}">
     </div>
 </div>
 <!-- PREVIEW PANEL -->
@@ -40,7 +41,7 @@
                 <h4 class="panel-title"> Preview (showing first 100 rows)​ </h4>
             </div>
             <div class="panel-body">
-                <table id="proc_data_table" class="display nowrap" cellspacing="0" width="100%"> </table>
+                <table id="proc_data_table" class="display nowrap" cellspacing="0" width="100%"></table>
             </div>
         </div>
     </div>
@@ -66,6 +67,7 @@
     .main_footer {
         background: inherit;
     }
+
     .container_footer {
         display: flex;
         justify-content: center;
@@ -82,7 +84,7 @@
             },
             columns: {{passed_json_columns | safe}},
             columnDefs: {{passed_json_columns_header | safe}},
-            order: [[ 0, "desc" ]],
+            order: [[0, "desc"]],
             scrollX: true,
         });
     });

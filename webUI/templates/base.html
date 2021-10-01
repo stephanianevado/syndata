@@ -10,14 +10,14 @@
 
     <title>Syndata</title>
     <meta name="description" content="Syndata solves real data problems without the real data risks">
-    <link rel="shortcut icon" type="image/png" href="{% static 'icons/rankingfacts.ico' %}" />
+    <link rel="shortcut icon" type="image/png" href="{% static 'icons/rankingfacts.ico' %}"/>
     <!-- CSS -->
     <link href="{% static 'bootstrap/css/bootstrap.css' %}" rel="stylesheet">
     <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
     <link href="{% static 'others/css/fileinput.min.css' %}" rel="stylesheet">
     <link href="{% static 'others/css/landing-page.css' %}" rel="stylesheet">
     <!-- bootstrap-select -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css"/>
     <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
           type="text/css">
@@ -34,7 +34,7 @@
             <div class="col-lg-12">
                 <div class="navbar-header">
                     <!--<div class="navbar-brand navbar-left">-->
-                        <!--&lt;!&ndash;<img id="dt_logo" class="img-responsive" src="{% static 'images/TranspaRank_Logo.png' %}">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<img id="dt_logo" class="img-responsive" src="{% static 'images/TranspaRank_Logo.png' %}">&ndash;&gt;-->
                     <!--</div>-->
                     <div class="navbar-brand navbar-right">
                         <img id="head_logo" class="img-responsive" src="{% static 'images/header_logo.png' %}">
@@ -44,7 +44,8 @@
                         <hr class="intro-divider">
                         <form method="post" enctype="multipart/form-data">{% csrf_token %}
                             <h2>Upload a real dataset</h2>
-                            <input id="file_upload" type="file" accept=".csv" class="filestyle" data-icon="false" name="user_upload_data" onchange='triggerValidation(this)' />
+                            <input id="file_upload" type="file" accept=".csv" class="filestyle" data-icon="false"
+                                   name="user_upload_data" onchange='triggerValidation(this)'/>
                             <br>
                             <!--<h2>OR</h2>
                             <br>
@@ -88,6 +89,7 @@
     .main_footer {
         background: inherit;
     }
+
     .container_footer {
         display: flex;
         justify-content: center;
@@ -105,7 +107,7 @@ $(document).ready(function(){
 <script type="text/javascript" language="JavaScript">
     // validate upload data size
     var data_size_flag = {{passed_size_flag | safe}};
-    if (data_size_flag == false){
+    if (data_size_flag == false) {
         alert("You need to upload a data set that has more than 20 rows! Or leave it blank to use our test data!");
     }
 </script>
@@ -115,10 +117,10 @@ $(document).ready(function(){
     var regex = new RegExp("(.*?)\.(csv)$");
 
     function triggerValidation(el) {
-      if (!(regex.test(el.value.toLowerCase()))) {
-        el.value = '';
-        alert('Please upload a .csv file!');
-      }
+        if (!(regex.test(el.value.toLowerCase()))) {
+            el.value = '';
+            alert('Please upload a .csv file!');
+        }
     }
 
 </script>

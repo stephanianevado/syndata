@@ -12,7 +12,7 @@ SECRET_KEY = '*^wntix=r#+730*d0x)q!kbjsjl&ti+-w&mq-5h$o_4v#q-d*-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['demo.syndata.co','10.0.1.252','127.0.0.1','10.8.0.43']
+ALLOWED_HOSTS = ['demo.syndata.co', '10.0.1.252', '127.0.0.1', '10.8.0.43']
 
 # Application definition
 

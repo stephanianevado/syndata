@@ -2,10 +2,12 @@ import json
 import numpy as np
 import pandas as pd
 
+
 def save_uploaded_file(f, current_file):
     with open(current_file + ".csv", 'wb+') as destination:
         for chunk in f.chunks():
             destination.write(chunk)
+
 
 def chart_position_score(current_file):
     data = pd.read_csv(current_file)
@@ -27,19 +29,23 @@ def chart_position_score(current_file):
         return_data['overall'].append([colname[i], max(attr_list[i]), np.median(attr_list[i]), min(attr_list[i])])
     return return_data
 
+
 def save_file_to_server(file_name, data, ext='.txt'):
     with open(file_name + ext, 'w') as outfile:
         outfile.write(str(data))
     outfile.close()
+
 
 def get_json_from_file(file_name):
     with open(file_name, 'r') as myfile:
         json_data = myfile.read().replace('\n', '')
     return json_data
 
+
 def getSizeOfDataset(current_file):
-    data = pd.read_csv(current_file+".csv")
+    data = pd.read_csv(current_file + ".csv")
     return len(data)
+
 
 class DataAnalyzerUI(object):
     def __init__(self, threshold_size=100):
