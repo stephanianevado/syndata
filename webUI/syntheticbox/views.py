@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import os
 
-from time import time, sleep
+from time import time
 
 from django.urls import reverse
 from django.http import HttpResponse
@@ -13,7 +13,9 @@ import syntheticbox.lib.SyntheticWrapper as wrapper
 
 from .models import DataAnalyzerUI
 from .models import save_uploaded_file
+from .models import save_joined_file
 from .models import getSizeOfDataset
+from .models import join_files, in_memory_files_to_csv
 
 
 def index(request):
@@ -32,10 +34,17 @@ def index(request):
     upload_data_size_threshold = 20
     if request.POST:
         if request.FILES:
-            # get user upload file
-            upload_csvfile = request.FILES['user_upload_data']
+            # Get user uploaded files.
+            uploaded_files = request.FILES.getlist('user_upload_data')
+            join_column = request.POST.get('join_column')
             current_data_name = data_server_path + cur_time_stamp
-            save_uploaded_file(upload_csvfile, current_data_name)
+            # Join files by selected column and save, or just save a single file.
+            if len(uploaded_files) > 1 and join_column:
+                csv_files = in_memory_files_to_csv(uploaded_files)
+                joined_file = join_files(csv_files, join_column)
+                save_joined_file(joined_file, current_data_name)
+            else:
+                save_uploaded_file(uploaded_files[0], current_data_name)
             # get the size of uploaded data
             upload_data_size = getSizeOfDataset(current_data_name)
             context_size = {"passed_play_data": play_data_list, "passed_size_flag": "false"}

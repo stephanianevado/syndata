@@ -9,6 +9,25 @@ def save_uploaded_file(f, current_file):
             destination.write(chunk)
 
 
+def save_joined_file(f, current_file):
+    f.to_csv(current_file + '.csv', index=False)
+
+
+def in_memory_files_to_csv(in_memory_files):
+    csv_files = []
+    for in_memory_file in in_memory_files:
+        csv = pd.read_csv(in_memory_file.file)
+        csv_files.append(csv)
+    return csv_files
+
+
+def join_files(csv_files, join_column):
+    merged = csv_files[0]
+    for file in csv_files[1:]:
+        merged = merged.merge(file, how='inner', on=join_column)
+    return merged
+
+
 def chart_position_score(current_file):
     data = pd.read_csv(current_file)
     return_data = {'datapoint': [], 'top10': [], 'overall': []}

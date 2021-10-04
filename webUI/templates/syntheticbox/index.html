@@ -44,16 +44,13 @@
                                   enctype="multipart/form-data">{% csrf_token %}
                                 <h4>Load a real dataset in a CSV file</h4>
                                 <input id="file_upload" size="50%" type="file" accept=".csv" class="filestyle"
-                                       data-icon="false" name="user_upload_data" onchange='triggerValidation(this)'>
-                                <!--<h4>Select a sample dataset<span>&nbsp;&nbsp;</span></h4>
-                                <select id="dataset_select" name="dataset_select" class="selectpicker">
-                                    {% for datai in passed_play_data %}
-                                     <option value="{{ datai | safe }}">{{ datai }}</option>
-                                    {% endfor %}
-                                </select>-->
-                                <!--<span><br><br></span>-->
-                                <input id="upload_btn" class="btn btn-default btn-lg top-buffer" aria-haspopup="true"
-                                       aria-expanded="false" type="submit" value="Upload Data"/>
+                                       data-icon="false" name="user_upload_data" onchange='onFileChange(this)'
+                                       multiple>
+                                <div id="join_column_select"></div>
+                                <input id="upload_btn" class="btn btn-default btn-lg top-buffer"
+                                       aria-haspopup="true"
+                                       aria-expanded="false" type="submit"
+                                       value="Upload data"/>
                             </form>
                         </div>
                     </div>
@@ -86,6 +83,27 @@
         justify-content: center;
     }
 
+    #join_column_select {
+        padding: 1rem;
+    }
+
+    label {
+        padding: 1rem;
+        margin-left: 1rem;
+    }
+
+    #error {
+        color: red;
+    }
+
+    select {
+        border-color: lightgrey;
+    }
+
+    select:hover {
+        background: lightgrey;
+    }
+
 </style>
 
 <!-- play data toolip setting-->
@@ -98,12 +116,32 @@
 </script>
 <!-- if upload data size less than threshold, then alert user to upload new data or leave it blank use test data-->
 <script type="text/javascript" language="JavaScript">
+
     function validateInput() {
-        if (!$("input[id='file_upload']").val()) {
+        const fileUpload = $('input[id="file_upload"]');
+        if (!fileUpload.val()) {
             alert('Please upload a .csv file');
             return false;
         }
+
+        const joinColumn = $('#join_column').val()
+        if (fileUpload.prop('files').length > 1 && !joinColumn) {
+            return false
+        }
+
         return true;
+    }
+
+    function onFileChange(el) {
+        const regex = new RegExp('(.*?)\.(csv)$');
+
+        // If upload data is not .csv file, then alert user to upload new data.
+        if (!(regex.test(el.value.toLowerCase()))) {
+            el.value = '';
+            alert('Please upload a .csv file with more than 20 rows');
+        }
+
+        showColumnSelection();
     }
 
     // validate upload data size
@@ -111,19 +149,62 @@
     //if (data_size_flag == false){
     //    alert("You need to upload a data set that has more than 20 rows! Or leave it blank to use our test data!");
     //}
-</script>
-<!-- if upload data is not .csv file, then alert user to upload new data or leave it blank to use test data-->
-<script type="text/javascript" language="javascript">
-    // for browser that does not support .csv accept
-    var regex = new RegExp("(.*?)\.(csv)$");
 
-    function triggerValidation(el) {
-        if (!(regex.test(el.value.toLowerCase()))) {
-            el.value = '';
-            alert('Please upload a .csv file with more than 20 rows');
-        }
+    function getColumns(file) {
+        return new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onload = function (event) {
+                const csv = event.target.result;
+                const rows = csv.split('\n');
+                const columnNames = rows[0].split(',');
+                resolve(columnNames);
+            }
+            reader.readAsText(file);
+        });
     }
 
+    function showColumnSelection() {
+        const files = document.querySelector('#file_upload').files;
+        const container = $('#join_column_select');
+
+        if (files.length < 2) {
+            container.empty();
+            return;
+        }
+
+        let allColumns = [];
+        for (let file of files) {
+            allColumns.push(getColumns(file))
+        }
+
+        Promise.all(allColumns).then(result => {
+
+                // Go through all columns and find the common ones.
+                const commonColumns = result.shift().filter((i) => {
+                    return result.every((y) => {
+                        return y.indexOf(i) !== -1;
+                    });
+                });
+
+                container.empty();
+
+                if (commonColumns.length === 0) {
+                    container.append('<p id="error">The files you have added have no columns in common. Consider adding only a single file or multiple files which share at least one column.</p>')
+                    return;
+                }
+
+                container
+                    .append('<label>Choose a column to join by: </label>')
+                    .append('<select id="join_column" class="selectpicker" name="join_column" value=""></select>')
+
+                const select = $('#join_column')
+                select.append('<option value="" disabled="true" selected="true" hidden="true">Choose column...</option>')
+                for (const col of commonColumns) {
+                    select.append(`<option value="${col}">${col}</option>`)
+                }
+            }
+        )
+    }
 </script>
 
 
