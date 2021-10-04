@@ -1,0 +1,11 @@
+age,annualincome,callingnum,id,customersuspended,education,gender,homeowner,maritalstatus,occupation,state
+12,168147,4251078442,1,Yes,Bachelor or equivalent,Male,Yes,Single,Technology Related Job,WA
+42,29047,4251043419,2,Yes,Bachelor or equivalent,Female,Yes,Single,Technology Related Job,WI
+58,27076,4251055773,3,Yes,Master or equivalent,Female,Yes,Single,Technology Related Job,KS
+20,137977,4251042488,4,Yes,PhD or equivalent,Male,No,Single,Technology Related Job,KY
+36,136006,4251073177,5,Yes,High School or below,Male,Yes,Married,Technology Related Job,ND
+67,246906,4251023523,6,Yes,High School or below,Female,Yes,Married,Technology Related Job,OK
+14,244935,4251055777,7,Yes,High School or below,Male,Yes,Single,Technology Related Job,AZ
+45,105835,4251045184,8,Yes,High School or below,Female,Yes,Married,Technology Related Job,CA
+61,103864,4251031912,9,Yes,Bachelor or equivalent,Female,Yes,Single,Technology Related Job,MI
+23,214765,4251042084,10,Yes,Bachelor or equivalent,Male,Yes,Single,Technology Related Job,MN
